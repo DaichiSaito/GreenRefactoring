@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import NCMB
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NCMB.setApplicationKey("11f747772a60e00cb3ab4f12286bd1a7a0fbb703cfe808f7198a3d319618ebbc", clientKey: "679d93aadf33c71e996098bdc00a67c623dbbd27cd280987c4cd30ebb1a696c8")
         return true
     }
 

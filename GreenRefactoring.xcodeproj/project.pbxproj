@@ -12,9 +12,18 @@
 		94D52D1C1E7A1CAD000B91B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D52D1A1E7A1CAD000B91B4 /* Main.storyboard */; };
 		94D52D1E1E7A1CAD000B91B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D52D1D1E7A1CAD000B91B4 /* Assets.xcassets */; };
 		94D52D211E7A1CAD000B91B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D52D1F1E7A1CAD000B91B4 /* LaunchScreen.storyboard */; };
+		94D52D291E7A1E3C000B91B4 /* NiftyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D52D281E7A1E3C000B91B4 /* NiftyRequest.swift */; };
+		94F15C4E1E7C08BF008A4124 /* NiftyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C4D1E7C08BF008A4124 /* NiftyAPI.swift */; };
+		94F15C501E7C0AA9008A4124 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C4F1E7C0AA9008A4124 /* RootViewController.swift */; };
+		94F15C521E7C0CA3008A4124 /* WearImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C511E7C0CA3008A4124 /* WearImageViewCell.swift */; };
+		94F15C541E7C0DA9008A4124 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C531E7C0DA9008A4124 /* SearchResponse.swift */; };
+		94F15C561E7C0EAC008A4124 /* WearImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C551E7C0EAC008A4124 /* WearImage.swift */; };
+		94F15C581E7C1AEC008A4124 /* NiftyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C571E7C1AEC008A4124 /* NiftyClient.swift */; };
+		DD4FEF7064885CAD36E6A007 /* Pods_GreenRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BFE3B1FA24111C8A425191 /* Pods_GreenRefactoring.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56C90A2F9D86FD31A9594138 /* Pods-GreenRefactoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenRefactoring.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenRefactoring/Pods-GreenRefactoring.release.xcconfig"; sourceTree = "<group>"; };
 		94D52D131E7A1CAD000B91B4 /* GreenRefactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenRefactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D52D161E7A1CAD000B91B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94D52D181E7A1CAD000B91B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		94D52D1D1E7A1CAD000B91B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D52D201E7A1CAD000B91B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D52D221E7A1CAD000B91B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D52D281E7A1E3C000B91B4 /* NiftyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiftyRequest.swift; sourceTree = "<group>"; };
+		94F15C4D1E7C08BF008A4124 /* NiftyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiftyAPI.swift; sourceTree = "<group>"; };
+		94F15C4F1E7C0AA9008A4124 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		94F15C511E7C0CA3008A4124 /* WearImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WearImageViewCell.swift; sourceTree = "<group>"; };
+		94F15C531E7C0DA9008A4124 /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		94F15C551E7C0EAC008A4124 /* WearImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WearImage.swift; sourceTree = "<group>"; };
+		94F15C571E7C1AEC008A4124 /* NiftyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiftyClient.swift; sourceTree = "<group>"; };
+		CAD84668B36B6DD78466B7DC /* Pods-GreenRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenRefactoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenRefactoring/Pods-GreenRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
+		F8BFE3B1FA24111C8A425191 /* Pods_GreenRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4FEF7064885CAD36E6A007 /* Pods_GreenRefactoring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46A0A21A3A7628DD2BD8EE17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAD84668B36B6DD78466B7DC /* Pods-GreenRefactoring.debug.xcconfig */,
+				56C90A2F9D86FD31A9594138 /* Pods-GreenRefactoring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94D52D0A1E7A1CAD000B91B4 = {
 			isa = PBXGroup;
 			children = (
 				94D52D151E7A1CAD000B91B4 /* GreenRefactoring */,
 				94D52D141E7A1CAD000B91B4 /* Products */,
+				46A0A21A3A7628DD2BD8EE17 /* Pods */,
+				BBBB7F6465ACBF5D096689CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +90,23 @@
 				94D52D1D1E7A1CAD000B91B4 /* Assets.xcassets */,
 				94D52D1F1E7A1CAD000B91B4 /* LaunchScreen.storyboard */,
 				94D52D221E7A1CAD000B91B4 /* Info.plist */,
+				94D52D281E7A1E3C000B91B4 /* NiftyRequest.swift */,
+				94F15C4D1E7C08BF008A4124 /* NiftyAPI.swift */,
+				94F15C4F1E7C0AA9008A4124 /* RootViewController.swift */,
+				94F15C511E7C0CA3008A4124 /* WearImageViewCell.swift */,
+				94F15C531E7C0DA9008A4124 /* SearchResponse.swift */,
+				94F15C551E7C0EAC008A4124 /* WearImage.swift */,
+				94F15C571E7C1AEC008A4124 /* NiftyClient.swift */,
 			);
 			path = GreenRefactoring;
+			sourceTree = "<group>";
+		};
+		BBBB7F6465ACBF5D096689CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE3B1FA24111C8A425191 /* Pods_GreenRefactoring.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94D52D251E7A1CAD000B91B4 /* Build configuration list for PBXNativeTarget "GreenRefactoring" */;
 			buildPhases = (
+				56BDC85C18B697DE3E50A7AD /* [CP] Check Pods Manifest.lock */,
 				94D52D0F1E7A1CAD000B91B4 /* Sources */,
 				94D52D101E7A1CAD000B91B4 /* Frameworks */,
 				94D52D111E7A1CAD000B91B4 /* Resources */,
+				9ED16586E4A4E836EAC8722F /* [CP] Embed Pods Frameworks */,
+				18A3011B2ED5026A2037F5DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +180,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18A3011B2ED5026A2037F5DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenRefactoring/Pods-GreenRefactoring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56BDC85C18B697DE3E50A7AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED16586E4A4E836EAC8722F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreenRefactoring/Pods-GreenRefactoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94D52D0F1E7A1CAD000B91B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F15C541E7C0DA9008A4124 /* SearchResponse.swift in Sources */,
+				94F15C501E7C0AA9008A4124 /* RootViewController.swift in Sources */,
+				94F15C581E7C1AEC008A4124 /* NiftyClient.swift in Sources */,
+				94F15C521E7C0CA3008A4124 /* WearImageViewCell.swift in Sources */,
 				94D52D191E7A1CAD000B91B4 /* ViewController.swift in Sources */,
+				94F15C561E7C0EAC008A4124 /* WearImage.swift in Sources */,
+				94F15C4E1E7C08BF008A4124 /* NiftyAPI.swift in Sources */,
+				94D52D291E7A1E3C000B91B4 /* NiftyRequest.swift in Sources */,
 				94D52D171E7A1CAD000B91B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +360,7 @@
 		};
 		94D52D261E7A1CAD000B91B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD84668B36B6DD78466B7DC /* Pods-GreenRefactoring.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DT9S8X9RA8;
@@ -270,6 +374,7 @@
 		};
 		94D52D271E7A1CAD000B91B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C90A2F9D86FD31A9594138 /* Pods-GreenRefactoring.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DT9S8X9RA8;
@@ -300,6 +405,7 @@
 				94D52D271E7A1CAD000B91B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
