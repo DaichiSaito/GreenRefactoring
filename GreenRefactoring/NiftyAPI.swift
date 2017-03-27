@@ -28,13 +28,6 @@ final class NiftyAPI {
         var order: Order {
             return Order(orderKind: .byDescending, value: "createDate")
         }
-        
-        var response: [NCMBObject]? {
-            return nil
-        }
-        
-        
-        
     }
     
     

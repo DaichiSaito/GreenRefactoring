@@ -28,6 +28,9 @@ class RootViewController: UITableViewController {
         case 0:
             print(0)
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "viewController") as! ViewController
+            vc.request = NiftyAPI.SearchWearImage()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
             
         case 1:
             print(1)

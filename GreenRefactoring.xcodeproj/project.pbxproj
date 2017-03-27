@@ -19,6 +19,8 @@
 		94F15C541E7C0DA9008A4124 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C531E7C0DA9008A4124 /* SearchResponse.swift */; };
 		94F15C561E7C0EAC008A4124 /* WearImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C551E7C0EAC008A4124 /* WearImage.swift */; };
 		94F15C581E7C1AEC008A4124 /* NiftyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C571E7C1AEC008A4124 /* NiftyClient.swift */; };
+		94F15C5A1E7CB057008A4124 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C591E7CB057008A4124 /* Result.swift */; };
+		94F15C5C1E7CB0CA008A4124 /* NiftyClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F15C5B1E7CB0CA008A4124 /* NiftyClientError.swift */; };
 		DD4FEF7064885CAD36E6A007 /* Pods_GreenRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BFE3B1FA24111C8A425191 /* Pods_GreenRefactoring.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		94F15C531E7C0DA9008A4124 /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		94F15C551E7C0EAC008A4124 /* WearImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WearImage.swift; sourceTree = "<group>"; };
 		94F15C571E7C1AEC008A4124 /* NiftyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiftyClient.swift; sourceTree = "<group>"; };
+		94F15C591E7CB057008A4124 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		94F15C5B1E7CB0CA008A4124 /* NiftyClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiftyClientError.swift; sourceTree = "<group>"; };
 		CAD84668B36B6DD78466B7DC /* Pods-GreenRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenRefactoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreenRefactoring/Pods-GreenRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
 		F8BFE3B1FA24111C8A425191 /* Pods_GreenRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,6 +101,8 @@
 				94F15C531E7C0DA9008A4124 /* SearchResponse.swift */,
 				94F15C551E7C0EAC008A4124 /* WearImage.swift */,
 				94F15C571E7C1AEC008A4124 /* NiftyClient.swift */,
+				94F15C591E7CB057008A4124 /* Result.swift */,
+				94F15C5B1E7CB0CA008A4124 /* NiftyClientError.swift */,
 			);
 			path = GreenRefactoring;
 			sourceTree = "<group>";
@@ -237,8 +243,10 @@
 				94F15C501E7C0AA9008A4124 /* RootViewController.swift in Sources */,
 				94F15C581E7C1AEC008A4124 /* NiftyClient.swift in Sources */,
 				94F15C521E7C0CA3008A4124 /* WearImageViewCell.swift in Sources */,
+				94F15C5C1E7CB0CA008A4124 /* NiftyClientError.swift in Sources */,
 				94D52D191E7A1CAD000B91B4 /* ViewController.swift in Sources */,
 				94F15C561E7C0EAC008A4124 /* WearImage.swift in Sources */,
+				94F15C5A1E7CB057008A4124 /* Result.swift in Sources */,
 				94F15C4E1E7C08BF008A4124 /* NiftyAPI.swift in Sources */,
 				94D52D291E7A1E3C000B91B4 /* NiftyRequest.swift in Sources */,
 				94D52D171E7A1CAD000B91B4 /* AppDelegate.swift in Sources */,

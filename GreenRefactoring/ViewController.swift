@@ -7,18 +7,33 @@
 //
 
 import UIKit
-
+import NCMB
 class ViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
     var request: NiftyRequest?
     
+    var items = [NCMBObject]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
+        
+        let client = NiftyClient()
+        client.loadImageData(request: request!) { result in
+            switch result {
+            case let .success(response):
+                self.items = response
+                
+                self.collectionView.reloadData()
+                
+            case let .failure(error):
+                print(error)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,12 +47,12 @@ class ViewController: UIViewController {
 extension ViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return self.items.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath)
-        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath) as! WearImageViewCell
+        cell.setCell(with: self.items[indexPath.row])
         return cell
     }
     

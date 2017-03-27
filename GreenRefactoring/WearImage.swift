@@ -10,9 +10,9 @@ import Foundation
 import NCMB
 struct WearImage {
     
-    var wear: Any
-    
-    var objectId: String
+//    var wear: Any
+//    
+//    var objectId: String
 //    var commentsRelation: NCMBObject?
 //    var comment: String?
     
@@ -20,7 +20,7 @@ struct WearImage {
 //    init(obj: NCMBObject) {
 //        self.wear = obj.convertToJSON(fromNCMBObject: obj)
 //    }
-    init(obj: NCMBObject) {
-        self.objectId = obj.objectId
-    }
+//    init(obj: NCMBObject) {
+//        self.objectId = obj.objectId
+//    }
 }

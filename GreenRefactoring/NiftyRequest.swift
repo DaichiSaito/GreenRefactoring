@@ -20,7 +20,7 @@ struct Order {
     
 }
 protocol NiftyRequest {
-    associatedtype Response: NCMBObject // ResponseというのがSearchResponseとして特殊化されるっぽい
+//    associatedtype Response: NCMBObject // ResponseというのがSearchResponseとして特殊化されるっぽい
     var className: String { get }
 //    var baseURL: URL { get }
 //    var path: String { get }
@@ -30,7 +30,7 @@ protocol NiftyRequest {
     var limit: Int32 { get }
     var order: Order { get }
     
-    var responses: [NCMBObject]? { get set }
+//    var responses: [NCMBObject]? { get set }
 }
 
 extension NiftyRequest {
@@ -44,11 +44,13 @@ extension NiftyRequest {
     
     func buildQuery() -> NCMBQuery {
         let query = NCMBQuery(className: className)
-        let dictionary = parameters as? [String : Any]
-        
-        for (key, value) in dictionary! {
-            query?.whereKey(key, equalTo: value)
+        if let dictionary = parameters as? [String : Any] {
+            for (key, value) in dictionary {
+                query?.whereKey(key, equalTo: value)
+            }
         }
+        
+        
         
         query?.includeKey = includeKey
         
@@ -89,9 +91,9 @@ extension NiftyRequest {
 //    }
     
     
-    func response(from data:[NCMBObject]) {
-        responses = data
-    }
+//    func response(from data:[NCMBObject]) {
+//        responses = data
+//    }
 //    func response(from data: Data, urlResponse:URLResponse) throws -> Response {
 //        let json = try JSONSerialization.jsonObject(with: data, options: [])
 //        if case(200..<300)? = (urlResponse as? HTTPURLResponse)?.statusCode {
